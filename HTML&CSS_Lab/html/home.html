@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML &CSS-Lab(Marks20)</title>
+        <link rel="stylesheet" type="text/css" href="/css/home.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/navbar.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/barplot.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/signup.css"/>
+        <script src="/js/NickDownie.js"></script>
+    </head>
+    <body>
+        <div class="header-section">
+            <header>Demo of Dropdown</header>
+        </div>
+  
+        <div class="navbar-section">
+            <div class="navbar">
+                <div class="subnav">
+                    <button class="subnavbtn">Link 1<i class="fa-fa-caret-down"></i></button>
+                    <div class="subnav-content"></i>
+                    </div>
+                </div>
+                    
+                <div class="subnav">
+                    <button class="subnavbtn">Link 2<i class="fa-fa-caret-down"></i></button>
+                    <div class="subnav-content"></i>
+                        <a href="#ddlink1">DD_Link_1</a>
+                        <a href="#ddlink2">DD_Link_2</a>
+                        <a href="#ddlink3">DD_Link_3</a>
+                    </div>
+                </div>
+                    
+                <div class="subnav">
+                    <button class="subnavbtn">Link 3<i class="fa-fa-caret-down"></i></button>
+                    <div class="subnav-content"></i>
+                        <a href="#ddlink1">DD_Link_1</a>
+                        <a href="#ddlink2">DD_Link_2</a>
+                        <a href="#ddlink3">DD_Link_3</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+          
+        <div class="barplot-section">
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+            <script>
+            var xValues = ["0","30%","40%","80%"];
+            var yValues = [0,30, 40, 80];
+            var barColors = ["yellow","red", "green","blue"];
+
+            new Chart("myChart", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                backgroundColor: barColors,
+                data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false},
+                title: {
+                display: true,
+                text: "BAR-PLOT"
+                }
+            }
+            });
+            </script>
+            
+        </div>
+        <div class="plotname">Bar-Plot</div>
+    
+        <div class="signup-section">
+            <video id="background-video" autoplay loop muted>
+                <source src="/media/Background.mp4" type="video/mp4"/>
+            </video>
+                <h1>Create Google Account</h1>
+               <form class="form">
+                  <table>
+                     <tr>
+                         <td class="inp"><input class="input-focus" type="text" placeholder="Enter Name" required/></td>
+                     </tr>
+                     <tr>
+                         <td class="inp"><input class="input-focus" type="contactnumber" placeholder="Enter Contact Number" required/></td>
+                     </tr>
+                     <tr>
+                         <td class="inp"><input class="input-focus" type="email" placeholder="Enter Email Id" required/></td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <input type="reset" value="Reset"/>
+                             <input type="submit" value="Submit"/>
+                         </td>
+                     </tr>
+                  </table>
+                </form>
+                
+        </div>
+    </body>
+</html>
+

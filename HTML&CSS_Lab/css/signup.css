@@ -1,0 +1,47 @@
+input{
+    height: 30px;
+    width: 90%;
+    padding-left:10px;
+    border-radius:4px;
+}
+
+input[type="submit"]{
+    margin-top:10px;
+    height:50px;
+    width:120px;
+    color:white;
+    font-size:25px;
+    background-color:pink;
+}
+
+input[type="reset"]{
+    margin-top:10px;
+    height:50px;
+    width:120px;
+    color:white;
+    font-size:25px;
+    background-color:pink;
+}
+
+.inp{
+    width:400px;
+}
+
+.form{
+    right:25%;
+    left:25%;
+    position:absolute;
+    border:2px solid white;
+    width:fit-content;
+    fill-opacity: 0.35;
+    z-index:1;
+}
+.input-focus{
+    font-weight: bold;
+    color:steelblue;
+}
+
+.inp:hover{
+    background-color: steelblue;
+    font-weight: bold;
+}
