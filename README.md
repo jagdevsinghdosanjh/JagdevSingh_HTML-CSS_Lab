@@ -1,5 +1,10 @@
 # JagdevSingh_HTML-CSS_Lab
 Repository for the purpose of Individual Submission to Great Learning's Full Stack Software Development.
+
+html folder contains two files namely home.html and home.html. The one named home.html file is coded as per Lab Instructions while other named homenew.html is coded in somewhat attractive look for Bar-Plot. Both these files have their own working .css files in the css folder.
+home.html is purely html and css based while homenew.html is based on html+css and javacript. Javascript file named NickDownie.js is inside js folder and needs elaborated discussion and understanding of JavaScript Code. Here this file is used for learning-cum-educational purpose only. 
+
+Problem Statement:
 Lab Session
 1.	Create a Navigation menu bar with dropdown list
 a.	Create header
