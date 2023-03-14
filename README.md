@@ -17,6 +17,8 @@ c.	Position it in the centre of the page.
 
 ![image](https://user-images.githubusercontent.com/33898246/224810741-34ed34ad-89f7-40ca-9839-7f4bd2e146af.png)
 
+Note:To better display the bar-plot Nick Downie's JavaScript file taken as assistance.Consider as genuine for further study.
+
 
  
 3.	Create a gmail account creation form to take input from users as specified below. Take the below image as reference. 
