@@ -4,6 +4,11 @@ Repository for the purpose of Individual Submission to Great Learning's Full Sta
 html folder contains two files namely home.html and homenew.html. The one named home.html file is coded as per Lab Instructions while other named homenew.html is coded in somewhat attractive look for Bar-Plot. Both these files have their own working .css files in the css folder.
 home.html is purely html and css based while homenew.html is based on html+css and javascript. Javascript file named NickDownie.js is inside js folder and needs elaborated discussion and understanding of JavaScript Code. Here this file is used for learning-cum-educational purpose only. 
 
+Each task within its own file name is also uploaded as Separate File Folder. 
+
+Because of too big size of Background.mp4 file inside media folder it is failing to upload.
+Kindly consider this as uploaded inside media folder.
+
 Problem Statement:
 Lab Session
 1.	Create a Navigation menu bar with dropdown list
