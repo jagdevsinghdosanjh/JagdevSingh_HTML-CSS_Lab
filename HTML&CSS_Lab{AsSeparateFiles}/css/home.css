@@ -1,0 +1,13 @@
+.header-section{
+    background-color: white;
+    height:35px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-section{
+    width:100%;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+}
